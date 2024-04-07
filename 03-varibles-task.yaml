@@ -1,0 +1,8 @@
+- name: printed varibles from task level
+  hosts: mongodb
+  vars_tasks:
+   varibles445
+   tasks:
+   - name: printed varibles from task level
+     ansible.builtin.debug:
+      msg: "i am learning course is {{COURSE}} trainer is {{TRAINER}} and it will take duration is {{DURATION}} "
