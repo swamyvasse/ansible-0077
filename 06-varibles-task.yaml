@@ -1,6 +1,5 @@
 - name: printed varibles from tasks level
   hosts: mongodb
-  vars_tasks:
   vars:
    COURSE: devops
    TRAINER: swamy
@@ -11,6 +10,6 @@
       msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}}"
    vars:
     HOUSE: own
-    ansible.builtin.debug:
-     msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}} i have a {{HOUSE}}"
+     ansible.builtin.debug:
+      msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}} i have a {{HOUSE}}"
       
