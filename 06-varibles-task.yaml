@@ -1,5 +1,6 @@
 - name: printed varibles from tasks level
   hosts: mongodb
+  vars_tasks:
   vars:
    COURSE: devops
    TRAINER: swamy
