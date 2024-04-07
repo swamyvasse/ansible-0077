@@ -1,7 +1,7 @@
 - name: printed varibles from task level
   hosts: mongodb
   vars_tasks:
-   varibles445
+   varibles445.yaml
    tasks:
    - name: printed varibles from task level
      ansible.builtin.debug:
