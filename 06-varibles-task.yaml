@@ -10,7 +10,6 @@
       msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}}"
    vars:
     HOUSE: own
-    - name: printed varibles from tasks level
-      ansible.builtin.debug:
-       msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}} i have a {{HOUSE}}"
+    ansible.builtin.debug:
+     msg: "i am learning course is {{COURSE}} and trainer is {{TRAINER}} and duration is {{DURATION}} i have a {{HOUSE}}"
       
